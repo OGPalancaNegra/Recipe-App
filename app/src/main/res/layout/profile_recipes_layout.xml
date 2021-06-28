@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="15dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+
+        >
+
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/recipe_profile_image"
+
+        ></ImageView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RandomText"
+            android:textSize="20dp"
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/recipe_profile_image"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/profile_recipe_title">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:text="RandomText"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/recipe_profile_image"
+            android:layout_below="@+id/profile_recipe_title"
+            android:id="@+id/profile_recipe_creator"
+            android:layout_marginTop="5dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/recipe_profile_image"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/profile_recipe_creator"
+            android:id="@+id/profile_recipe_description"
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

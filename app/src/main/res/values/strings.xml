@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecipeStorer</string>
+
+    <string name="EditProfileFragment">Edit Profile</string>
+    <string name="SignOutFragment">Sign Out</string>
+
+</resources>

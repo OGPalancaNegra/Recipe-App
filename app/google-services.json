@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "337242302940",
+    "firebase_url": "https://recipestorer-default-rtdb.firebaseio.com",
+    "project_id": "recipestorer",
+    "storage_bucket": "recipestorer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337242302940:android:a1d7852f431e9b0d9d4719",
+        "android_client_info": {
+          "package_name": "com.example.recipestorer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337242302940-tc3rmc21atu3m4111m1889vqki08f6t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recipestorer",
+            "certificate_hash": "10764bfd2b11dd5fa7707cb9b4b7678ecdabfc57"
+          }
+        },
+        {
+          "client_id": "337242302940-g0eifrvmmbq6398b2dc3kpepj5p3s8pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWcCzsaozoacYM-ajn37cBBx_LmOc_rdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337242302940-g0eifrvmmbq6398b2dc3kpepj5p3s8pn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
